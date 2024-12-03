@@ -1,0 +1,107 @@
+*{
+    font-family: "Quantico", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s;
+}
+
+h2 {
+    color: #6f4c3e;
+}
+
+.img {
+    width: 200;
+}
+
+.Harga {
+    color: blue;
+}
+header {
+    background-color: #6f4c3e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+    padding: 0.5rem 1.5rem;
+}
+
+ul li a:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(5, 5, 5, 0.233);
+    background-color: #331205;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+article {
+    flex: 3;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #f2e8d5;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.product {
+    background-color: #e0d4c8;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #6f4c3e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
